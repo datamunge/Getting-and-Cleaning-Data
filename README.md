@@ -9,6 +9,16 @@ Author: datamunge
 
 Assumptions:
 1. All files related to the analysis are expected in the same directory or folder where the R script is sourced.
+So make sure the following files are in the same directory or folder where the R script is stored:
+a) X-test.txt
+b) X-train.txt
+c) y-test.txt
+d) y-train.txt
+e) subject_train.txt
+f) subject_test.txt
+g) features.txt
+h) activity_labels.txt
+
 2. None of the source files that contain the observations, activity, subjects data etc are 
 touched or altered.
 
